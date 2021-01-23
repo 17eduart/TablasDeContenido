@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Como crear tablas de contenido en HTML</title>
+	<link rel="stylesheet" type="text/css" href="Proyecto1.Css">
+</head>
+<body>
+	<h1 class="TituloP" align="center" ><i> Como crear tablas de contenido en HTML </i></h1>
+	<br>
+	<fieldset>
+		<legend>¿Que es HTML y para que sirve? </legend>
+		<p class="p1">HTML por sus siglas en Ingles las cuales son HyperText Languaje ("Lenguaje de marcas de hipertecto") es un lenguaje marcado para la elaboracion de paginas web la cual es como un esquelo y que con diferntes aplicaciones les damos forma que nosotros queramos </p>
+	</fieldset>	
+	
+	<p> Nosotros que estamos en una etapa de aprendizaje de una forma total diferente a la que conocemos muchas veces no entendemos a nuestros profesores al momento de explicar, por esto hemos decidido crear un sitio web que ayude como gíua a los estudiantes de como para crear tablas de contenido en HTML lo cual reforzana nuestos aprendizajes y tambien ayudara a los estudiantes como una giua para que ellos puedan elaborarlo, dando una giua clara y concisa </p>
+
+	<p>Para esta presentacion veremos las tablas de contenidos y veremos su funcion como crearlas con codigo HTML y como se verian</p>
+
+	<h2> <i> Estos son los distintos modelos de tablas de contenido </i> </h2>
+	<br>
+	<!--Tabla N°1 Inicio -->
+	<fieldset>
+		<LEGEND> <b>Tabla Basica</b> </LEGEND>
+		<p>Esta tabla no es mas que un medio de organizar datos en filas y en columnas, este concepto nos ayudara a transmitir informacion de forma facil y comprensible</p>
+		<img src="img/Tabla1.png" width="222" height="286" >
+		<p>A continuacion veremos el ejemplo de como quedaria la tabla, añadiendole Css de forma que se vea mas llamativo</p>
+		<table>
+			<tr>
+				<td>Celda 1</td>
+				<td>Celda 2</td>
+				<td>Celda 3</td>
+				<td>Celda 4</td>
+				<td>Celda 5</td>
+			</tr>
+			<tr>
+				<td>Celda 6</td>
+				<td>Celda 7</td>
+				<td>Celda 8</td>
+				<td>Celda 9</td>
+				<td>Celda 10</td>
+			</tr>
+		</table>
+	</fieldset>
+	<!--Tabla N°1 Final -->
+	<br>
+	<!--Tabla N°2 Inicio -->
+	<fieldset>
+		<legend><b> Celdas con un Encabezado </b></legend>
+		<p>Esta tabla cuenta con algunas celdas como encabezado que ayuda a organizar y categorizar otras celdas de la tabla, esta tabla puede beneficiarse de un grupo de celdas de encabezado bien ubicado</p>
+		<img src="img/Tabla2.png" width="371" height="316">
+		<table>
+			<tr>
+				<th>Hoy</th>
+				<th>Mañana</th>
+				<th>Sábado</th>
+			</tr>
+			<tr>
+				<td>Soleado</td>
+				<td>Mayormente soleado</td>
+				<td>Parcialmente nublado</td>
+			</tr>
+			<tr>
+				<td>16°C</td>
+				<td>20°C</td>
+				<td>14°C</td>
+			</tr>
+		</table>
+	</fieldset>
+	<!--Tabla N°2 Final -->
+	<br>
+	<!-- Tabla N°3 Inicio -->
+	<fieldset>
+		<legend><b>Atributos Scope</b></legend>
+		<p>Provee un mecanismo para indicar explicitamente a que celdas afecta un encabezado, este atributo solo puede ser declarado en una celda de encabezado y tomar distintos valores, por ejemplo los valores "Col" y "Row" indican que la celda de encabezado provee informacion para el resto de las celdas en la columna o fila en que este presente</p>
+		<p>Este es el codigo que se utilizo para la creacion de estas tablas</p>
+		<img src="img/Tabla3.png" width="341" height="478">
+		<table>
+			<tr>
+				<th scope="Row">Dia </th>
+				<th>Hoy</th>
+				<th>Mañana</th>
+				<th>Sabado</th>
+			</tr>
+			<tr>
+				<th>Condición</th>
+				<td>Soleado</td>
+				<td>Mayormente nublado</td>
+				<td>Parcialmente nublado</td>
+			</tr>
+			<tr>
+				<th>Temperatura</th>
+				<td>19°C</td>
+				<td>17°C</td>
+				<td>12°C</td>
+			</tr>
+			<tr>
+				<th>Vientos</th>
+				<td>E 13 km/h</td>
+				<td>E 11 km/h</td>
+				<td>E 16 km/h</td>
+			</tr>
+		</table>
+	</fieldset>
+	<!--  "Inicio" Codigo de las redes sociales de la pagina-->
+	<fieldset>
+		<legend>Formas de contacto con los creadores</legend>
+    		<footer>
+    			<br/>
+    			<img src="https://cutt.ly/PgpBJft" height="20"  width="30"  >
+    			<a target="blank"   href="https://www.facebook.com"> Facebook</a>
+    			<br/>
+
+    			<img src="https://cutt.ly/YgpBD1D" height="20"  width="30"  >
+    			<a target="blank"  href="https://twitter.com"> twitterter </a>
+    			<br/>
+
+		    	<img src="https://cutt.ly/cgpB9Go" height="20" width="30">
+		    	<a target="blank"  href="https://www.paypal.com/ec/signin"> Paypal </a>
+		    	<br/>
+		    	<cite>Desarollado por Eduart Coyago y Nelly Tayan </cite>
+    	    </footer>
+    <!--  "Final" Codigo de las redes sociales de la pagina-->
+	</fieldset>
+</body>
+</html>
